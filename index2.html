@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login">
+        <div class="login__img">
+            <img src="./hamrahe-aval-300x300.jpg" alt="Logo">
+        </div>
+        <div class="login__container">
+            <ul class="tabs-list">
+                <li class="active"><a href="#tab__login">وارد شوید</a></li>
+                <li><a href="#tab__signIn">ثبت نام کنید</a></li>
+                <li><a href="#tab__forgetPass">رمز عبور را فراموش کردم</a></li>
+            </ul>
+
+            <div id="tab__login" class="login__tab active">
+                <div class="login__form">
+                    <form accept-charset="utf-8" action="#" class="simform">
+                        <div class="sminputs">
+                            <div class="input full">
+                                <label class="string optional" for="user-name">نام کاربری</label>
+                                <input class="string optional" maxlength="255" id="user-email" placeholder="Email"
+                                    type="email" size="50" />
+                            </div>
+                        </div>
+                        <div class="sminputs">
+                            <div class="input full">
+                                <label class="string optional" for="user-pw">گذر واژه</label>
+                                <input class="string optional" maxlength="255" id="user-pw" placeholder="Password"
+                                    type="password" size="50" />
+                                <span class="hide-password">Show</span>
+                            </div>
+                        </div>
+                        <div class="simform__actions">
+                            <input class="sumbit" name="commit" type="sumbit" value="Log In" />
+                            <span class="simform__actions-sidetext">
+                                <a class="special" role="link" href="#">
+                                    Forgot your password?<br>Click here</a>
+                            </span>
+                        </div>
+                    </form>
+            </div>
+            <div id="tab__signIn" class="login__tab">
+                <form accept-charset="utf-8" action="#" class="simform">
+                    <div class="sminputs">
+                        <div class="input full">
+                            <label class="string optional" for="user-name">Email*</label>
+                            <input class="string optional" maxlength="255" id="user-email" placeholder="Email"
+                                type="email" size="50" />
+                        </div>
+                    </div>
+                    <div class="sminputs">
+                        <div class="input string optional">
+                            <label class="string optional" for="user-pw">Password *</label>
+                            <input class="string optional" maxlength="255" id="user-pw" placeholder="Password"
+                                type="text" size="50" />
+                        </div>
+                        <div class="input string optional">
+                            <label class="string optional" for="user-pw-repeat">Repeat password *</label>
+                            <input class="string optional" maxlength="255" id="user-pw-repeat"
+                                placeholder="Repeat password" type="text" size="50" />
+                        </div>
+                    </div>
+                    <div class="simform__actions">
+                        <input class="sumbit" name="commit" type="sumbit" value="Create Account" />
+                        <span class="simform__actions-sidetext">By creating an account you agree to our <a
+                                class="special" href="#" target="_blank" role="link">Terms & Privacy</a></span>
+                    </div>
+                </form>
+            </div>
+            <div id="tab__forgetPass" class="login__tab">
+                <h3>Tab3</h3>
+                <p>
+                    The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
+                    by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs
+                    grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
